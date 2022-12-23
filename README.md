@@ -1,7 +1,7 @@
 
-###
+### Clone Linktree
 
-<img align="center" height="500" width="500" src=".src/assets/img/tela.png">
+<img align="center" height="500" width="500" src="./img/tela.png">
 
 ## `npm start`
 
