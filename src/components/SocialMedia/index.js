@@ -10,7 +10,7 @@ import {
  } from "react-icons/si";
 
  import { FaUserTie } from "react-icons/fa"
-// import ModalEmail from "../ModalEmail";
+import ModalEmail from "../ModalEmail";
 
 class SocialMedia extends Component {
   render() {
@@ -35,7 +35,7 @@ class SocialMedia extends Component {
     return (
       <div>
         {linksSocialMedia}
-        {/* <ModalEmail /> */}
+        <ModalEmail />
       </div>
     )
   }
