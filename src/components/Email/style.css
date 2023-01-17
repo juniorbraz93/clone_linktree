@@ -7,15 +7,6 @@
   padding: 4px;
 }
 
-.form-container {
-  flex-direction: column;
-  display:  flex;
-  background-color: #222831;
-  color: #FFF;
-  padding: 4px;
-  width: 100%;
-}
-
 .title {
   margin-bottom: 14px;
 }

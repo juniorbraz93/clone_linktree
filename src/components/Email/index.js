@@ -35,8 +35,6 @@ export default function Email() {
 
  return (
     <div className="container">
-
-      <div className="form-container">
           
         <h1 className="title">Contato</h1>
 
@@ -68,8 +66,6 @@ export default function Email() {
 
         </form>
         
-      </div>
-
     </div>
  );
 }
