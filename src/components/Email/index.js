@@ -35,7 +35,7 @@ export default function Email() {
 
  return (
     <div className="container">
-      <div className="area-form">
+      {/* <div className="area-form"> */}
         
         <h1 className="title">Contato</h1>
 
@@ -67,7 +67,7 @@ export default function Email() {
 
         </form>
 
-      </div>
+      {/* </div> */}
     </div>
  );
 }
