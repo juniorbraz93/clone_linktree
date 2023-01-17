@@ -8,10 +8,12 @@
 }
 
 .form-container {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  flex-direction: column;
+  display:  flex;
   background-color: #222831;
+  color: #FFF;
+  padding: 4px;
+  width: 100%;
 }
 
 .title {
