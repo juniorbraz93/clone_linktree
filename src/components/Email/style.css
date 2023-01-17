@@ -7,16 +7,18 @@
   background-color: #222831;
   color: #FFF;
   padding: 4px;
-  min-width: 100%;
 }
 
-/* .area-form {
+.area-form {
   flex-direction: column;
   display:  flex;
   justify-content: center;
   align-items: center;
-  
-} */
+  min-width: 100%;
+  background-color: #222831;
+  color: #FFF;
+  padding: 4px;
+}
 
 .title {
   margin-bottom: 14px;
