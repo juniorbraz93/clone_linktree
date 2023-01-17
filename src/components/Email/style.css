@@ -1,9 +1,8 @@
 .container {
-  min-height: 100vh;
+  min-height: 79vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
   flex-direction: column;
   background-color: #222831;
   color: #FFF;
@@ -50,5 +49,5 @@
 
 .button:hover {
   background-color: #2ecc72;
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
