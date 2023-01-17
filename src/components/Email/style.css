@@ -1,13 +1,17 @@
 .container {
   flex-direction: column;
   display:  flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   min-height: 100%;
   background-color: #222831;
   color: #FFF;
   padding: 4px;
+}
+
+.form-container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #222831;
 }
 
 .title {
