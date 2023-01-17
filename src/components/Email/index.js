@@ -34,9 +34,7 @@ export default function Email() {
   }
 
  return (
-    <div className="container">
-      <div className="area-form">
-        
+    <div className="container">        
         <h1 className="title">Contato</h1>
 
         <form className='form' onSubmit={sendEmail} >
@@ -67,7 +65,6 @@ export default function Email() {
 
         </form>
 
-      </div>
     </div>
  );
 }
