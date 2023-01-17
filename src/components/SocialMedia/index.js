@@ -6,11 +6,12 @@ import {
   SiLinkedin,
   SiGithub,
   SiWhatsapp,
-  SiYoutube
+  SiYoutube,
+  // SiGmail
  } from "react-icons/si";
 
  import { FaUserTie } from "react-icons/fa"
-// import ModalEmail from "../ModalEmail";
+import ModalEmail from "../ModalEmail";
 
 class SocialMedia extends Component {
   render() {
@@ -20,6 +21,7 @@ class SocialMedia extends Component {
       { id: 3, icon: <SiYoutube style={{marginRight: 10}} color="#FF0000" />, nameUrl: 'Youtube', url: 'https://www.youtube.com/channel/UCHEFiaSgYcR6BFrtjSqV5qA'},
       { id: 4, icon: <SiLinkedin style={{marginRight: 10}} color="#0e76a8" />, nameUrl: 'LinkedIn', url: 'https://www.linkedin.com/in/jose-braz-junior/'},
       { id: 5, icon: <SiWhatsapp style={{marginRight: 10}} color="#25D366" />, nameUrl: 'Whatsapp', url: 'https://wa.me/5527999040472'},
+      // { id: 6, icon: <SiGmail style={{marginRight: 10}} color="#db4a39" />, nameUrl: 'Gmail', url: 'mailto:jbrazjr.es@gmail.com'},
     ]
 
     const linksSocialMedia = listMediaSocial.map((index) =>
@@ -35,7 +37,7 @@ class SocialMedia extends Component {
     return (
       <div>
         {linksSocialMedia}
-//         <ModalEmail />
+         <ModalEmail />
       </div>
     )
   }
