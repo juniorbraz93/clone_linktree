@@ -19,6 +19,7 @@
   background-color: #222831;
   color: #FFF;
   padding: 4px;
+  flex: 1;
 }
 
 .title {
